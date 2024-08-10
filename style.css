@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(42, 40, 40);
+  border: 1px solid #1f1f20;
+  padding: 14px 32px;
+  border-radius: 10px;
+}
+
+.banner {
+  background-image: url("./assets/Hero-bg.png");
+}
+
+.banner div {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.banner div h1 {
+  font-size: 46px;
+}
+.banner div p {
+  margin-bottom: 15px;
+}
+
+.banner div a {
+  text-decoration: none;
+  color: rgb(220, 215, 215);
+  border: 1px solid #0e0e0e;
+  background-color: #0e0e0e;
+  padding: 14px 32px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* development */
+.development {
+  margin: 50px auto;
+}
+.title {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.scnd-card{
+flex-direction: row-reverse;
+}
+
+.text-part {
+  color: #5b5b5d;
+}
+.text-part p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.learn-btn {
+  text-decoration: none;
+  color: #5b5b5d;
+  border: 1px solid #1f1f20;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.video-card{
+    padding: 30px;
+    border: 1px solid #b8b6b6;
+    border-radius: 5px;
+}
+.video-card iframe{
+    border-radius: 5px;
+}
+.target{
+    padding: 20px;
+    border-radius: 10px;
+}
+.inf{
+    margin: 20px 0;
+    
+}
+.learn-more {
+    text-decoration: underline;
+    color: #5b5b5d;
+    
+    font-size: 16px;
+    font-weight: 600;
+}
+.target-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.html{
+    background: rgba(255, 0, 0, 0.071);
+}
+.css{
+    background: rgba(0, 0, 255, 0.071)
+}
+.js{
+    background: rgba(255, 255, 0, 0.071);
+}
+.next{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #b8b6b6;
+    border-radius: 10px;
+}
+.next .img{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.support{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: url('./assets/handshake.jpg');
+    border-radius: 10px;
+    color: white;
+}
+
+.support h1{
+    font-size: 38px;
+}
+.input-grp{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.input-grp input{
+    width: 70%;
+    background-color: white;
+    border: 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.input-grp input:focus{
+    outline: 0;
+}
+.input-grp a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    background: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+footer{
+    border-top: 1px solid #000;
+    margin-top:50px ;
+    background: rgb(249, 247, 239);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+}
+
+.social{
+    display: flex;
+}
+.icon{
+    margin-right: 10px;
+}
